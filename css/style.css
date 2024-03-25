@@ -24,7 +24,7 @@ body {
   border: none;
   border-radius: 1rem;
   background-color: hsl(0, 0%, 100%);
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -121,6 +121,7 @@ body {
   padding: 1.5rem;
   border-radius: 0.5rem;
   gap: 1rem;
+  color: hsl(30, 10%, 34%);
 }
 .card .cardBody .preparation .preparationHeading {
   color: hsl(332, 51%, 32%);

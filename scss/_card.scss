@@ -4,7 +4,7 @@
     border: none;
     border-radius: 1rem;
     background-color: $white;
-    margin-top: 4rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -117,9 +117,10 @@
             padding: 1.5rem;
             border-radius: 0.5rem;
             gap: 1rem;
+            color: $wenge-brown;
 
             .preparationHeading {
-                color: $dark-raspberry ;
+                color: $dark-raspberry;
             }
         }
 
