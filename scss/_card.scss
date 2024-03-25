@@ -1,0 +1,127 @@
+.card {
+    max-width: 45rem;
+    padding: 2.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: $white;
+    margin-top: 4.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: $outfit;
+
+    @media (max-width: 576px) {
+        margin-top: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .cardImage {
+        width: 100%;
+        border-radius: 0.7rem;
+
+        @media (max-width: 576px) {
+            border-radius: 0;
+        }
+    }
+
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        @media (max-width: 576px) {
+            padding: 0 2rem;
+        }
+
+        hr {
+            background-color: $light-grey;
+            height: 0.01rem;
+            border: none;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .cardTitle {
+                font-family: $young-serif;
+                color: $dark-charcoal;
+                font-size: 2.3rem;
+                font-weight: 400;
+            }
+
+            .subHeading {
+                font-family: $young-serif;
+                color: $nutmeg;
+                font-size: 1.7rem;
+                font-weight: 500;
+            }
+
+            .sectionText {
+                color: $wenge-brown;
+                font-size: $paragraph;
+                line-height: 1.5rem;
+            }
+
+
+            ul,
+            ol {
+                display: flex;
+                flex-direction: column;
+                gap: 0.65rem;
+                padding-left: 1.5rem;
+
+                li {
+                    padding-left: 1rem;
+                }
+
+                .bold {
+                    font-weight: 700;
+                    
+                }
+            }
+
+            ol {
+                li{               
+                    &::marker {
+                        color: $dark-raspberry;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .table {
+                border-collapse: collapse;
+
+                tr:not(:last-child) td {
+                    border-bottom: 0.01rem solid $light-grey;
+
+                }
+
+                td {
+                    padding: 1rem 0;
+                    padding-left: 1.6rem;
+                }
+
+                .data {
+                    color: $nutmeg;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .preparation {
+            background-color: $rose-white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            gap: 1rem;
+
+            .preparationHeading {
+                color: $dark-raspberry ;
+            }
+        }
+
+    }
+}

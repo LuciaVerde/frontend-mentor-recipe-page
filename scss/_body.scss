@@ -1,0 +1,12 @@
+body{
+    display: grid;
+    row-gap:2rem;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: $eggshell;
+    max-height: 100vh;
+}
+
+.hidden{
+    display: none;
+}
