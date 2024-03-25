@@ -26,8 +26,8 @@ The challenge is to build out a recipe page and get it looking as close to the d
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/LuciaVerde/frontend-mentor-recipe-page)
+- Live Site URL: [Netlifly](https://frontendmentorrecipepagesolution.netlify.app/)
 
 ### Built with
 
@@ -42,5 +42,5 @@ Through this challenge, I've deepened my grasp of responsive design principles, 
 ## Author
 
 - Frontend Mentor - [@LuciaVerde](https://www.frontendmentor.io/profile/LuciaVerde)
-- GitHub [Lucía Verde](https://github.com/LuciaVerde)
+- GitHub - [Lucía Verde](https://github.com/LuciaVerde)
 - LinkedIn - [Lucía Verde](https://www.linkedin.com/in/luc%C3%ADa-verde-6bb9822b1/)
